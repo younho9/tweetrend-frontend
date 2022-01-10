@@ -1,0 +1,2 @@
+export const MOMENT_KO_DEFAULT_FEW_SECONDS_STRING = '몇 초';
+export const MOMENT_KO_FEW_SECONDS_STRING = '지금';

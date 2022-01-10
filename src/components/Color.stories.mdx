@@ -1,0 +1,108 @@
+import {
+  Meta,
+  ColorPalette,
+  ColorItem,
+  Description,
+} from '@storybook/addon-docs/blocks';
+import { useDarkMode } from 'storybook-dark-mode';
+
+import { BaseColorNames } from 'src/types';
+import { darkColors, lightColors } from 'src/styles';
+
+<Meta title="Theme/Color" />
+
+# Color
+
+<br />
+
+## Graysclae Color
+
+> **GrayscaleColor**: `50` 부터 `900` 까지 11단계를 사용합니다.
+
+<ColorPalette>
+  <ColorItem
+    title="lightTheme.colors.Gray"
+    subtitle="Grayscale"
+    colors={{
+      Gray50: lightColors.Gray50,
+      Gray75: lightColors.Gray75,
+      Gray100: lightColors.Gray100,
+      Gray200: lightColors.Gray200,
+      Gray300: lightColors.Gray300,
+      Gray400: lightColors.Gray400,
+      Gray500: lightColors.Gray500,
+      Gray600: lightColors.Gray600,
+      Gray700: lightColors.Gray700,
+      Gray800: lightColors.Gray800,
+      Gray900: lightColors.Gray900,
+    }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="darkTheme.colors.Gray"
+    subtitle="Grayscale"
+    colors={{
+      Gray50: darkColors.Gray50,
+      Gray75: darkColors.Gray75,
+      Gray100: darkColors.Gray100,
+      Gray200: darkColors.Gray200,
+      Gray300: darkColors.Gray300,
+      Gray400: darkColors.Gray400,
+      Gray500: darkColors.Gray500,
+      Gray600: darkColors.Gray600,
+      Gray700: darkColors.Gray700,
+      Gray800: darkColors.Gray800,
+      Gray900: darkColors.Gray900,
+    }}
+  />
+</ColorPalette>
+
+## Base Color
+
+> **BaseColor**: `400` 부터 `700` 까지 4단계를 사용합니다.
+
+<br />
+
+### Light
+
+<br />
+
+<ColorPalette>
+  {BaseColorNames.map((color) => (
+    <ColorItem
+      key={color}
+      title={`lightTheme.colors.${color}`}
+      subtitle={color}
+      colors={{
+        [`${color}400`]: lightColors[`${color}400`],
+        [`${color}500`]: lightColors[`${color}500`],
+        [`${color}600`]: lightColors[`${color}600`],
+        [`${color}700`]: lightColors[`${color}700`],
+      }}
+    />
+  ))}
+</ColorPalette>
+
+<br />
+
+### Dark
+
+<br />
+
+<ColorPalette>
+  {BaseColorNames.map((color) => (
+    <ColorItem
+      key={color}
+      title={`darkTheme.colors.${color}`}
+      subtitle={color}
+      colors={{
+        [`${color}400`]: darkColors[`${color}400`],
+        [`${color}500`]: darkColors[`${color}500`],
+        [`${color}600`]: darkColors[`${color}600`],
+        [`${color}700`]: darkColors[`${color}700`],
+      }}
+    />
+  ))}
+</ColorPalette>

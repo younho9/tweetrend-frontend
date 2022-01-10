@@ -1,0 +1,86 @@
+import { Meta, Typeset } from '@storybook/addon-docs/blocks';
+
+import { typography } from 'src/styles';
+
+<Meta title="Theme/Typography" />
+
+# Typography
+
+**Font:** Noto Sans KR
+
+**Weights:** 100(Thin), 300(Light), 400(Regular), 500(Medium), 700(Bold), 900(Black),
+
+## Sizes
+
+<Typeset
+  fontFamily={typography.fonts}
+  fontSizes={[
+    parseInt(typography.size.s1, 10),
+    parseInt(typography.size.s2, 10),
+    parseInt(typography.size.s3, 10),
+    parseInt(typography.size.m1, 10),
+    parseInt(typography.size.m2, 10),
+    parseInt(typography.size.m3, 10),
+    parseInt(typography.size.l1, 10),
+    parseInt(typography.size.l2, 10),
+    parseInt(typography.size.l3, 10),
+  ]}
+  fontWeight={typography.weight.regular}
+  sampleText="Almost before we knew it, we had left the ground."
+/>
+
+## Weights
+
+### Thin
+
+<Typeset
+  fontFamily={typography.fonts}
+  fontSizes={[parseInt(typography.size.m1, 10)]}
+  fontWeight={typography.weight.thin}
+  sampleText="그들의 장비와 기구는 모두 살아 있다."
+/>
+
+### Light
+
+<Typeset
+  fontFamily={typography.fonts}
+  fontSizes={[parseInt(typography.size.m1, 10)]}
+  fontWeight={typography.weight.light}
+  sampleText="그들의 장비와 기구는 모두 살아 있다."
+/>
+
+### Regular
+
+<Typeset
+  fontFamily={typography.fonts}
+  fontSizes={[parseInt(typography.size.m1, 10)]}
+  fontWeight={typography.weight.regular}
+  sampleText="그들의 장비와 기구는 모두 살아 있다."
+/>
+
+### Medium
+
+<Typeset
+  fontFamily={typography.fonts}
+  fontSizes={[parseInt(typography.size.m1, 10)]}
+  fontWeight={typography.weight.medium}
+  sampleText="그들의 장비와 기구는 모두 살아 있다."
+/>
+
+### Bold
+
+<Typeset
+  fontFamily={typography.fonts}
+  fontSizes={[parseInt(typography.size.m1, 10)]}
+  fontWeight={typography.weight.bold}
+  sampleText="그들의 장비와 기구는 모두 살아 있다."
+/>
+
+### Black
+
+<Typeset
+  fontFamily={typography.fonts}
+  fontSizes={[parseInt(typography.size.m1, 10)]}
+  fontWeight={typography.weight.black}
+  sampleText="그들의 장비와 기구는 모두 살아 있다."
+/>
