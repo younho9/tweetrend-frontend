@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="754.2" height="933.3" viewBox="0 0 754.2 933.3">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.305" y1="0.357" x2="0.678" y2="0.631" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.752" y1="-0.125" x2="0.372" y2="0.817" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.407" y1="0.34" x2="0.578" y2="0.635" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.407" y1="0.34" x2="0.578" y2="0.635" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0.388" y1="0.323" x2="0.594" y2="0.649" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="0.388" y1="0.323" x2="0.594" y2="0.649" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="0.267" y1="0.265" x2="0.879" y2="0.882" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Illustration" transform="translate(0 -0.1)">
+    <path id="Path" d="M687.8,0,0,397,.1,933,687.9,536Z" transform="translate(1.5 0.1)" opacity="0.1" fill="url(#linear-gradient)"/>
+    <path id="Path-2" data-name="Path" d="M686.9,0,0,396.5v72.7L686.9,72.7Z" transform="translate(2.4 0.1)" opacity="0.2" fill="url(#linear-gradient-2)"/>
+    <path id="Path-3" data-name="Path" d="M177.8,0,0,102.6v49.3L177.8,49.3Z" transform="translate(576.4 242.9)" fill="#f2994a"/>
+    <path id="Path-4" data-name="Path" d="M177.7,0,0,102.6v49.3L177.7,49.3Z" transform="translate(86.3 517.8)" fill="#f2c94c"/>
+    <path id="Path-5" data-name="Path" d="M347,0,0,200.3V349.2L347,148.9Z" transform="translate(33.6 584.2)" opacity="0.15" fill="url(#linear-gradient-3)"/>
+    <path id="Path-6" data-name="Path" d="M347,0,0,200.3V349.2L347,148.9Z" transform="translate(0 567.4)" opacity="0.07" fill="url(#linear-gradient-4)"/>
+    <path id="Path-7" data-name="Path" d="M52.3,0,0,30.2V79.5L52.3,49.3Z" transform="translate(302.6 629.3)" fill="#fff" opacity="0.15"/>
+    <path id="Path-8" data-name="Path" d="M52.3,0,0,30.2V79.5L52.3,49.3Z" transform="translate(238.2 668.2)" fill="#fff" opacity="0.15"/>
+    <path id="Path-9" data-name="Path" d="M52.3,0,0,30.2V79.5L52.3,49.3Z" transform="translate(173.8 704.7)" fill="#fff" opacity="0.15"/>
+    <path id="Path-10" data-name="Path" d="M52.3,0,0,30.2V79.5L52.3,49.3Z" transform="translate(109.4 743.6)" fill="#fff" opacity="0.15"/>
+    <path id="Path-11" data-name="Path" d="M394.6,0,0,227.8v16.8L394.6,16.8Z" transform="translate(248.3 201.6)" fill="#fff" opacity="0.15"/>
+    <path id="Path-12" data-name="Path" d="M340.5,0,0,196.5v16.8L340.5,16.8Z" transform="translate(302.4 235.5)" fill="#fff" opacity="0.15"/>
+    <path id="Path-13" data-name="Path" d="M289.7,0,0,167.2V184L289.7,16.8Z" transform="translate(353.2 269)" fill="#fff" opacity="0.15"/>
+    <path id="Path-14" data-name="Path" d="M288.9,0,0,166.7V315.6L288.9,148.9Z" transform="translate(449 362.3)" opacity="0.15" fill="url(#linear-gradient-5)"/>
+    <path id="Path-15" data-name="Path" d="M288.9,0,0,166.7V315.6L288.9,148.9Z" transform="translate(415.4 345.5)" opacity="0.07" fill="url(#linear-gradient-6)"/>
+    <path id="Path-16" data-name="Path" d="M229.6,0,0,132.5v16.8L229.5,16.8Z" transform="translate(488.6 409.5)" fill="#fff" opacity="0.15"/>
+    <path id="Path-17" data-name="Path" d="M183.8,0,0,106.1v16.8L183.8,16.8Z" transform="translate(534.4 443.4)" fill="#fff" opacity="0.15"/>
+    <path id="Path-18" data-name="Path" d="M0,29.435c0,10.9,6.4,16,14.2,11.5s14.2-17,14.2-27.8c0-10.9-6.4-16-14.2-11.5C6.3,6.135,0,18.635,0,29.435Z" transform="translate(614.5 50.165)" fill="#fff" opacity="0.2"/>
+    <path id="Shape" d="M13.2,320.235c-8.8-5.5-13.2-18.2-13.2-38s4.4-37.6,13.2-53.2q13.2-23.549,35.4-36.3c14.8-8.6,26.6-10.1,35.4-4.6s13.2,18.2,13.2,38-4.4,37.6-13.2,53.2q-13.2,23.551-35.4,36.3-13.5,7.846-23.676,7.835A21.662,21.662,0,0,1,13.2,320.235Zm30.7-226.4,38.1-22,107.3,157.6-38.1,22Zm104.8,41.5c-8.8-5.5-13.2-18.2-13.2-38q0-29.85,13.2-53.2,13.2-23.551,35.4-36.3c14.8-8.6,26.6-10.1,35.4-4.6s13.2,18.2,13.2,38-4.4,37.6-13.2,53.2a94.338,94.338,0,0,1-35.4,36.3q-13.5,7.847-23.676,7.835A21.668,21.668,0,0,1,148.7,135.335Z" transform="translate(497.7 554.765)" opacity="0.3" fill="url(#linear-gradient-7)"/>
+  </g>
+</svg>
